@@ -5,6 +5,8 @@ using System;
 using Server.Gumps;
 using Server;
 using Server.Custom.Engineering;
+using Server.Custom.Engineering.Pets;
+using BaseMechanicalPet = Server.Custom.Engineering.BaseMechanicalPet;
 
 namespace Server.Custom.Engineering
 {

@@ -42,71 +42,71 @@ namespace Server.Custom.Engineering
 
             // --- Poison ---
             id = AddCraft(typeof(MinorPoisonBomb), "Grenadier",
-                $"Minor Poison Bomb  [r={GrenadierConfig.MinorPoisonRadius}, cd={cd}s, EP scales, town-blocked]",
+                "Minor Poison Bomb",
                 70.0, 100.0, typeof(Bottle), "bottle", 1);
             AddRes(id, typeof(OrangePetals), "orange petals", 2);
 
             id = AddCraft(typeof(MidPoisonBomb), "Grenadier",
-                $"Poison Bomb  [r={GrenadierConfig.MidPoisonRadius}, cd={cd}s, EP scales, town-blocked]",
+                "Poison Bomb",
                 85.0, 115.0, typeof(Bottle), "bottle", 1);
             AddRes(id, typeof(OrangePetals), "orange petals", 4);
 
             id = AddCraft(typeof(MegaPoisonBomb), "Grenadier",
-                $"Mega Poison Bomb  [r={GrenadierConfig.MegaPoisonRadius}, cd={cd}s, EP scales, town-blocked]",
+                "Mega Poison Bomb",
                 100.0, 130.0, typeof(Bottle), "bottle", 1);
             AddRes(id, typeof(OrangePetals), "orange petals", 6);
 
             id = AddCraft(typeof(UltraPoisonBomb), "Grenadier",
-                $"Ultra Poison Bomb  [r={GrenadierConfig.UltraPoisonRadius}, cd={cd}s, EP scales, town-blocked]",
+                "Ultra Poison Bomb",
                 110.0, 140.0, typeof(Bottle), "bottle", 1);
             AddRes(id, typeof(OrangePetals), "orange petals", 8);
             AddRes(id, typeof(ArcaneDampener), "arcane dampener", 1);
 
             // --- Explosive ---
             id = AddCraft(typeof(TacticalBomb), "Grenadier",
-                $"Tactical Bomb  [cd={cd}s, EP scales, town-blocked]",
+                "Tactical Bomb",
                 90.0, 120.0, typeof(Bottle), "bottle", 1);
             AddRes(id, typeof(ArcanePowerCore), "arcane power core", 1);
 
             id = AddCraft(typeof(StrategicBomb), "Grenadier",
-                $"Strategic Bomb  [cd={cd}s, EP scales, town-blocked]",
+                "Strategic Bomb",
                 100.0, 130.0, typeof(Bottle), "bottle", 1);
             AddRes(id, typeof(ArcanePowerCore), "arcane power core", 1);
 
             id = AddCraft(typeof(MegaBombPotion), "Grenadier",
-                $"Mega Bomb  [cd={cd}s, EP scales, town-blocked]",
+                "Mega Bomb",
                 105.0, 135.0, typeof(Bottle), "bottle", 1);
             AddRes(id, typeof(ArcanePowerCore), "arcane power core", 2);
 
             // --- Utility ---
             id = AddCraft(typeof(HealthBomb), "Grenadier",
-                $"Health Bomb  [r={GrenadierConfig.HealthBombRadius}, cd={cd}s, Healing&EP scale, utility]",
+                "Health Bomb",
                 95.0, 125.0, typeof(ArcanePowerCore), "arcane power core", 1);
             AddRes(id, typeof(Ginseng), "ginseng", 10);
             AddRes(id, typeof(Bottle), "bottle", 5);
 
             id = AddCraft(typeof(CureBomb), "Grenadier",
-                $"Cure Bomb  [r={GrenadierConfig.CureBombRadius}, cd={cd}s, petals immunity { (int)GrenadierConfig.PetalBuffDuration.TotalSeconds }s]",
+                "Cure Bomb",
                 95.0, 125.0, typeof(ArcanePowerCore), "arcane power core", 1);
             AddRes(id, typeof(OrangePetals), "orange petals", 10);
             AddRes(id, typeof(Bottle), "bottle", 5);
 
             id = AddCraft(typeof(CleanseBomb), "Grenadier",
-                $"Cleanse Bomb  [r={GrenadierConfig.CleanseBombRadius}, cd={cd}s, removes curses]",
+                "Cleanse Bomb",
                 100.0, 130.0, typeof(ArcanePowerCore), "arcane power core", 1);
             AddRes(id, typeof(EnchantedApple), "enchanted apple", 15);
             AddRes(id, typeof(Bottle), "bottle", 5);
 
             // --- Traps ---
             id = AddCraft(typeof(ClaymoreBox), "Grenadier",
-                $"Claymore Box  [r={GrenadierConfig.ClaymoreRadius}, charges={GrenadierConfig.ClaymoreBaseCharges}, town-blocked]",
+                "Claymore Box",
                 100.0, 130.0, typeof(ArcanePowerCore), "arcane power core", 1);
             AddRes(id, typeof(ArcaneDampener), "arcane dampener", 1);
             AddRes(id, typeof(ServoBundle), "servo bundle", 2);
             AddRes(id, typeof(SensorArray), "sensor array", 1);
 
             id = AddCraft(typeof(GrenadierKit), "Grenadier",
-                "Grenadier Kit  [+3 claymore charges]",
+                "Grenadier Kit",
                 85.0, 115.0, typeof(MicroActuator), "micro-actuator", 2);
             AddRes(id, typeof(HeatShielding), "heat shielding", 1);
         }
